@@ -38,8 +38,7 @@
     <AssemblyOriginatorKeyFile>kafkaclient.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="log4net">
       <HintPath>..\..\..\lib\log4Net\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Spring.Threading">
@@ -56,8 +55,7 @@
     <Reference Include="xunit">
       <HintPath>..\packages\xunit.1.9.2\lib\net20\xunit.dll</HintPath>
     </Reference>
-    <Reference Include="ZooKeeperNet, Version=3.3.4.1, Culture=neutral, PublicKeyToken=fefd2c046da35b56, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="ZooKeeperNet">
       <HintPath>..\..\..\lib\zookeeper\ZooKeeperNet.dll</HintPath>
     </Reference>
   </ItemGroup>
